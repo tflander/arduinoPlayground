@@ -10,7 +10,7 @@
 // On a Trinket or Gemma we suggest changing this to 1
 #define PIN            1
 
-const int numPixels = 1;
+const int numPixels = 4;
 
 // When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.
 // Note that for older NeoPixel strips you might need to change the third parameter--see the strandtest
@@ -24,8 +24,8 @@ int intensity = 0;
 int redIncrementer = 0;
 int greenIncrementer = 0;
 int blueIncrementer = 0;
-int shortDelayInMs = 10;
-int longDelayInMs = 2000;
+int shortDelayInMs = 30;
+int longDelayInMs = 4000;
 
 int isBlack() {
   return red == 0 && green == 0 && blue == 0;
@@ -36,7 +36,7 @@ int isRed() {
 }
 
 int isYellow() {
-  return red == 255 & green == 255 && blue == 0;
+  return red == 255 & green == 255 && blue == 0; // TODO: want green to be 128
 }
 
 int isGreen() {
@@ -60,7 +60,7 @@ int isWhite() {
 }
 
 int isOrange() {
-  return red == 255 & green == 153 && blue == 0;
+  return red == 255 & green == 64 && blue == 0;
 }
 void blackToRed() {
       redIncrementer = 1;
@@ -81,6 +81,7 @@ void whiteToRed() {
 }
 
 void yellowToGreen() {
+  green=255;
   redIncrementer = -1;
   greenIncrementer = 0;
   blueIncrementer = 0;
@@ -146,7 +147,13 @@ void loop() {
   }
   pixels.show();
   
-  if(isOrange()) {
+  if(isOrange() || isYellow()) {
+    if(isYellow()) {
+      for (int counter = 0; counter < numPixels; ++counter) {
+        pixels.setPixelColor( counter, 255, 128, 0);
+      }
+      pixels.show();
+    }
     delay(longDelayInMs);
   }
   
