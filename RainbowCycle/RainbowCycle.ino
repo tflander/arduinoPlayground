@@ -17,7 +17,7 @@ int* rainbowColors[9] = {
 };
 
 int currentColor = 0;
-int numColors = 9;
+int numColors = sizeof(rainbowColors)/sizeof(rainbowColors[0]);
 
 #define PIN            1
 const int numPixels = 4;
@@ -32,6 +32,7 @@ int nextColor(int previousColor) {
 }
 
 void setup() {
+  
   pixels.begin();
 }
 

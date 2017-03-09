@@ -1,168 +1,83 @@
-// NeoPixel Ring simple sketch (c) 2013 Shae Erisson
-// released under the GPLv3 license to match the rest of the AdaFruit NeoPixel library
-
 #include <Adafruit_NeoPixel.h>
-#ifdef __AVR__
-  #include <avr/power.h>
-#endif
 
-// Which pin on the Arduino is connected to the NeoPixels?
-// On a Trinket or Gemma we suggest changing this to 1
 #define PIN            1
-
 const int numPixels = 4;
-
-// When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.
-// Note that for older NeoPixel strips you might need to change the third parameter--see the strandtest
-// example for more information on possible values.
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numPixels, PIN, NEO_GRB + NEO_KHZ800);
 
-int red = 0;
-int green = 0;
-int blue = 0;
+int black[3] = {0, 0, 0};
+int red[3] = {255, 0, 0};
+int orange[3] = {255, 48, 0};
+int yellow[3] = {255, 128, 0};
+int lime[3] = {255, 255, 0};
+int green[3] = {0, 255, 0};
+int cyan[3] = {0, 255, 255};
+int blue[3] = {0, 0, 255};
+int purple[3] = {255, 0, 255};
+int white[3] = {255, 255, 255};
+
+int* rainbowColors[9] = {
+  red, orange, yellow, lime,
+  green, cyan, blue, purple, white  
+};
+
+int currentColorIndex = 0;
+int numColors = sizeof(rainbowColors)/sizeof(rainbowColors[0]);
+
 int intensity = 0;
-int redIncrementer = 0;
-int greenIncrementer = 0;
-int blueIncrementer = 0;
 int shortDelayInMs = 30;
 int longDelayInMs = 4000;
 
-int isBlack() {
-  return red == 0 && green == 0 && blue == 0;
+int currentColor[3] = {0,0,0};
+int endColor[3] = {0,0,0};
+
+int nextColor(int previousColor) {
+  int newColor = previousColor + 1;
+  if (newColor >= numColors) {
+    newColor = 0;
+  }
+  return newColor;
 }
 
-int isRed() {
-  return red == 255 & green == 0 && blue == 0;
+void copyColor(int color[3], int dest[3]) {
+    // memcpy(dest, color, sizeof(black) * sizeof(black[0]));
+    dest[0] = color[0];
+    dest[1] = color[1];
+    dest[2] = color[2];
 }
 
-int isYellow() {
-  return red == 255 & green == 255 && blue == 0; // TODO: want green to be 128
+void stepFade(int currentColor[3], int endColor[3]) {
+    for(int i = 0; i < 3; ++i) {
+        if(currentColor[i] < endColor[i]) {
+            currentColor[i] = currentColor[i] + 1;
+        } else if (currentColor[i] > endColor[i]) {
+            currentColor[i] = currentColor[i] - 1;
+        }
+    }
 }
 
-int isGreen() {
-  return red == 0 & green == 255 && blue == 0;
+void initStartAndEndColors() {
+  copyColor(rainbowColors[currentColorIndex], currentColor);
+  copyColor(rainbowColors[nextColor(currentColorIndex)], currentColor);  
 }
-
-int isCyan() {
-  return red == 0 & green == 255 && blue == 255;
-}
-
-int isBlue() {
-  return red == 0 & green == 0 && blue == 255;
-}
-
-int isPurple() {
-  return red == 255 & green == 0 && blue == 255;
-}
-
-int isWhite() {
-  return red == 255 & green == 255 && blue == 255;
-}
-
-int isOrange() {
-  return red == 255 & green == 64 && blue == 0;
-}
-void blackToRed() {
-      redIncrementer = 1;
-      greenIncrementer = 0;
-      blueIncrementer = 0;
-}
-
-void redToYellow() {
-      redIncrementer = 0;
-      greenIncrementer = 1;
-      blueIncrementer = 0;
-}
-
-void whiteToRed() {
-      redIncrementer = 0;
-      greenIncrementer = -1;
-      blueIncrementer = -1;
-}
-
-void yellowToGreen() {
-  green=255;
-  redIncrementer = -1;
-  greenIncrementer = 0;
-  blueIncrementer = 0;
-}
-
-void greenToCyan() {
-  redIncrementer = 0;
-  greenIncrementer = 0;
-  blueIncrementer = 1;
-}
-
-void cyanToBlue() {
-  redIncrementer = 0;
-  greenIncrementer = -1;
-  blueIncrementer = 0;
-}
-
-void blueToPurple() {
-  redIncrementer = 1;
-  greenIncrementer = 0;
-  blueIncrementer = 0;
-}
-
-void purpleToWhite() {
-  redIncrementer = 0;
-  greenIncrementer = 1;
-  blueIncrementer = 0;
-}
-
 void setup() {
-  pixels.begin(); // This initializes the NeoPixel library.
+  initStartAndEndColors();
+  pixels.begin();
 }
 
 void loop() {
-  intensity = intensity + 1;
-  if(intensity >= 255) {
-    if(!isBlack() && !isWhite()) {
+  if(++intensity >= 255) {
       delay(longDelayInMs);
-    }
-    intensity = 0;
-    
-    if (isBlack()) {
-       blackToRed();
-    } else if (isRed()) {
-      redToYellow();
-    } else if (isYellow()) {
-      yellowToGreen();
-    } else if (isGreen()) {
-      greenToCyan();
-    } else if (isCyan()) {
-        cyanToBlue();
-    } else if (isBlue()) {
-       blueToPurple();
-    } else if (isPurple()) {
-      purpleToWhite();
-    } else if (isWhite()) {
-      whiteToRed();
-    }
+      currentColorIndex = nextColor(currentColorIndex);
+      initStartAndEndColors();
+      intensity = 0;
   }
   
   for (int counter = 0; counter < numPixels; ++counter) {
-    pixels.setPixelColor( counter, red, green, blue);
+    pixels.setPixelColor( counter, currentColor[0], currentColor[1], currentColor[2]);
   }
   pixels.show();
-  
-  if(isOrange() || isYellow()) {
-    if(isYellow()) {
-      for (int counter = 0; counter < numPixels; ++counter) {
-        pixels.setPixelColor( counter, 255, 128, 0);
-      }
-      pixels.show();
-    }
-    delay(longDelayInMs);
-  }
-  
-  red = red + redIncrementer;
-  green = green + greenIncrementer;
-  blue = blue + blueIncrementer;  
-  
   delay(shortDelayInMs);
-    
+  stepFade(currentColor, endColor);
 }
 
 
