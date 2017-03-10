@@ -7,4 +7,4 @@ add_executable (faderTests TestColorFader.cpp)
 # helloDemo
 target_link_libraries (faderTests LINK_PUBLIC RGBColorFade RgbPixelColor)
 
-include_directories("${CMAKE_SOURCE_DIR}/src")
+include_directories("${CMAKE_SOURCE_DIR}/include")

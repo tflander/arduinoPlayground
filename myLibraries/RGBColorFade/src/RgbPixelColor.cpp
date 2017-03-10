@@ -1,4 +1,4 @@
-#include "RgbPixelColor.hpp"
+#include <RgbPixelColor.hpp>
 
 RgbPixelColor::RgbPixelColor(int red, int green, int blue)
 {
