@@ -66,6 +66,7 @@ void showColor(NeoPixelColor &color)
   cout << color.getBlue() << endl;
 }
 
+/*
 int main()
 {
 
@@ -100,6 +101,7 @@ int main()
     }
   }
 }
+*/
 
 /*
 int currentColorIndex = 0;

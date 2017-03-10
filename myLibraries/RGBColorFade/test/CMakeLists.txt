@@ -6,3 +6,5 @@ add_executable (faderTests TestColorFader.cpp)
 # public include directories we will use those link directories when building
 # helloDemo
 target_link_libraries (faderTests LINK_PUBLIC RGBColorFade)
+
+include_directories("${CMAKE_SOURCE_DIR}/src")

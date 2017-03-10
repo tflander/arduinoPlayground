@@ -9,23 +9,23 @@
 /* Begin PBXAggregateTarget section */
 		17AE918B851742D88404BE1C /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9F00E304065D4A4181CB9555 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 29BA4B52D3994D77BA3DC066 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				38B4C89377C64763A31408F8 /* CMake Rules */,
+				82D8E31E72724D2AAEC4039E /* CMake Rules */,
 			);
 			dependencies = (
-				1E57074492074F88A8815727 /* PBXTargetDependency */,
-				05AA2A69FFC44DC99712496A /* PBXTargetDependency */,
-				B8749BAA1BC04BDBB9120241 /* PBXTargetDependency */,
+				3D3711225F18469F8E5C270A /* PBXTargetDependency */,
+				F4DE0F4C8A1A47B69B9518E2 /* PBXTargetDependency */,
+				07E8E58ECAF0419F91F7C8C9 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		CD048C6523AE4C01B381880B /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 191E72A6D77749618538400C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = D71550FB26D3448CAD8DAE26 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				B30A8FE0A8B942B8805578F8 /* CMake Rules */,
+				97C979167FB44D9AB8825C13 /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -35,203 +35,203 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		8ED4AD53ED3F4AE5AB23DA19 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/RGBColorFader.cpp */ = {isa = PBXBuildFile; fileRef = 1A648E0AC86F49FB8B40D8D4 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/RGBColorFader.cpp */; };
-		B19C711146CE45B1A9B14D74 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DBDA672112004A4CA5CEA3F7 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/CMakeLists.txt */; };
-		C25A7979FB93404F9A3A7FDE /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 20E969D49D274318A91B5400 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/CMakeLists.txt */; };
-		FC0FC9E0A8AD492A95FDDB9C /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/TestColorFader.cpp */ = {isa = PBXBuildFile; fileRef = 38BE3420C93846059B6B3CBC /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/TestColorFader.cpp */; };
+		2D9EF5BC1F004F4585BB5EBA /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9A266A2F01E641D486EB0B54 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/CMakeLists.txt */; };
+		859F2C6D9F7E40838C376173 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/TestColorFader.cpp */ = {isa = PBXBuildFile; fileRef = C08E34C7ED244438BD702A69 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/TestColorFader.cpp */; };
+		8FB3F37BEB6E4BD4BC85482B /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/RGBColorFader.cpp */ = {isa = PBXBuildFile; fileRef = DB66EB3894A34B2A8E114E29 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/RGBColorFader.cpp */; };
+		90332E0F0CBA4A22902252BA /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F38B5F707349456AAF7796A7 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/CMakeLists.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		0F108F20023646BBB53EF6F0 /* Debug */ = {
+		17133B5288654147880EB7E2 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		1D24E1477CCC42278BB6340A = {
+		19DE00728F3644408FDA8B83 = {
 			isa = PBXBuildStyle;
 		};
-		264F602751ED4A88B09E3CBF /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		52C37F85CA2D4DE4A4C5521E /* MinSizeRel */ = {
+		9D91FECFC3F7423786ED7D29 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		7D959960B26A465BAEC7A431 /* Release */ = {
+		BEC16502D3B94E128394FA51 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		FA9D83CAF69F47C18F6489A5 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		2A4B7D62B2D3448A88D096FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7CDF0109D5494EA09B8B27B5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B02341524F9F475C87C2DF96;
-			remoteInfo = RGBColorFade;
-		};
-		2AC242F5361A493B8DD134C6 /* PBXContainerItemProxy */ = {
+		07729C99E19B4C96AC52B4DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7CDF0109D5494EA09B8B27B5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CD048C6523AE4C01B381880B;
 			remoteInfo = ZERO_CHECK;
 		};
-		41EC8FA6E6E24C869435C004 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7CDF0109D5494EA09B8B27B5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD048C6523AE4C01B381880B;
-			remoteInfo = ZERO_CHECK;
-		};
-		947DECDF087D47439DFE6331 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7CDF0109D5494EA09B8B27B5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD048C6523AE4C01B381880B;
-			remoteInfo = ZERO_CHECK;
-		};
-		96EF32B2940B40B29022C4CE /* PBXContainerItemProxy */ = {
+		08C89EE35C5F4594B5DE9597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7CDF0109D5494EA09B8B27B5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B04DD1A4429F49E7845CEA19;
 			remoteInfo = faderTests;
 		};
-		E5C95739C89D45339782F63A /* PBXContainerItemProxy */ = {
+		6473A0EA2362459C8F8287B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7CDF0109D5494EA09B8B27B5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B02341524F9F475C87C2DF96;
 			remoteInfo = RGBColorFade;
 		};
+		89D0D5ACABBA4FD5BC94FBE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CDF0109D5494EA09B8B27B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD048C6523AE4C01B381880B;
+			remoteInfo = ZERO_CHECK;
+		};
+		BAE0C9DD81FC4E8AA02EDCBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CDF0109D5494EA09B8B27B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B02341524F9F475C87C2DF96;
+			remoteInfo = RGBColorFade;
+		};
+		E7FAE23F9E8C431083C2FDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CDF0109D5494EA09B8B27B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD048C6523AE4C01B381880B;
+			remoteInfo = ZERO_CHECK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A648E0AC86F49FB8B40D8D4 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/RGBColorFader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RGBColorFader.cpp; path = src/RGBColorFader.cpp; sourceTree = SOURCE_ROOT; };
-		20E969D49D274318A91B5400 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		38BE3420C93846059B6B3CBC /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/TestColorFader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TestColorFader.cpp; path = test/TestColorFader.cpp; sourceTree = SOURCE_ROOT; };
-		5B4C1074647A4E319ACF2409 /* faderTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = faderTests; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B611CBF462D4E8294A71FBD /* /common/workspaces/arduino/myLibraries/RGBColorFade/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		7E68B5AC6E3244C9BC5C2AD0 /* RGBColorFade */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRGBColorFade.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA4EDD0A0FA44DFBB5E2E15 /* /common/workspaces/arduino/myLibraries/RGBColorFade/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		DBDA672112004A4CA5CEA3F7 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1D9B562D92554BD0B88B8DE7 /* faderTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = faderTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		733F2996583F4508ACE774B7 /* /common/workspaces/arduino/myLibraries/RGBColorFade/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9A266A2F01E641D486EB0B54 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C08E34C7ED244438BD702A69 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/TestColorFader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TestColorFader.cpp; path = test/TestColorFader.cpp; sourceTree = SOURCE_ROOT; };
+		CA250B85D1C54FB09FDF1CCD /* /common/workspaces/arduino/myLibraries/RGBColorFade/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DB66EB3894A34B2A8E114E29 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/RGBColorFader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RGBColorFader.cpp; path = src/RGBColorFader.cpp; sourceTree = SOURCE_ROOT; };
+		EA22C9FDA84040139262B5FE /* RGBColorFade */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRGBColorFade.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38B5F707349456AAF7796A7 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		57B67400B10A4998842D76CA /* ZERO_CHECK */ = {
+		16A80E959D3E4D1985BC221E /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				A30CD3BF6D2E48CE8990221C /* CMake Rules */,
-				CFA4EDD0A0FA44DFBB5E2E15 /* /common/workspaces/arduino/myLibraries/RGBColorFade/CMakeLists.txt */,
 			);
-			name = ZERO_CHECK;
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		5C83086CBF094B09B3CBE1B6 /* Sources */ = {
+		19A2A702D95F4B4A93CCA887 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				690BC7D060CE445D9DCE8E8F /* ALL_BUILD */,
-				57B67400B10A4998842D76CA /* ZERO_CHECK */,
-				69256AF459F3414F9B684F9A /* RGBColorFade */,
-				A62028E08D644686B9915F77 /* faderTests */,
+				C08E34C7ED244438BD702A69 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/TestColorFader.cpp */,
 			);
-			name = Sources;
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		690BC7D060CE445D9DCE8E8F /* ALL_BUILD */ = {
+		275E243F480F4C04925F722E /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE9C899AC8F94DC6A05DB4D9 /* CMake Rules */,
-				7B611CBF462D4E8294A71FBD /* /common/workspaces/arduino/myLibraries/RGBColorFade/CMakeLists.txt */,
+				DB66EB3894A34B2A8E114E29 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/RGBColorFader.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2A09238057A54C25BEA4B552 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				16A80E959D3E4D1985BC221E /* CMake Rules */,
+				CA250B85D1C54FB09FDF1CCD /* /common/workspaces/arduino/myLibraries/RGBColorFade/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		69256AF459F3414F9B684F9A /* RGBColorFade */ = {
+		35FFCA69B46642448E6B712F /* faderTests */ = {
 			isa = PBXGroup;
 			children = (
-				E683A3AD16AE4057B6D9F6D9 /* Source Files */,
-				20E969D49D274318A91B5400 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/CMakeLists.txt */,
+				19A2A702D95F4B4A93CCA887 /* Source Files */,
+				9A266A2F01E641D486EB0B54 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/CMakeLists.txt */,
 			);
-			name = RGBColorFade;
+			name = faderTests;
 			sourceTree = "<group>";
 		};
-		8CEDCD49DBCE41F397C37051 = {
-			isa = PBXGroup;
-			children = (
-				5C83086CBF094B09B3CBE1B6 /* Sources */,
-				9062516121A240D2A95DF322 /* Resources */,
-				994A8368D3B4466BA56F68F1 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		9062516121A240D2A95DF322 /* Resources */ = {
+		4433E1069CCE4FC4ADE206F0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		994A8368D3B4466BA56F68F1 /* Products */ = {
+		464D0E3735E8421BA5C0608F /* ZERO_CHECK */ = {
 			isa = PBXGroup;
 			children = (
-				7E68B5AC6E3244C9BC5C2AD0 /* RGBColorFade */,
-				5B4C1074647A4E319ACF2409 /* faderTests */,
+				BFA25B481B0F4CBFBA983B28 /* CMake Rules */,
+				733F2996583F4508ACE774B7 /* /common/workspaces/arduino/myLibraries/RGBColorFade/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		4C923F2918CF43BFB9C74A1F /* RGBColorFade */ = {
+			isa = PBXGroup;
+			children = (
+				275E243F480F4C04925F722E /* Source Files */,
+				F38B5F707349456AAF7796A7 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/CMakeLists.txt */,
+			);
+			name = RGBColorFade;
+			sourceTree = "<group>";
+		};
+		7C136203FB02476592BF5425 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2A09238057A54C25BEA4B552 /* ALL_BUILD */,
+				464D0E3735E8421BA5C0608F /* ZERO_CHECK */,
+				4C923F2918CF43BFB9C74A1F /* RGBColorFade */,
+				35FFCA69B46642448E6B712F /* faderTests */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		9CF0B1D4451D43FCB343E11A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA22C9FDA84040139262B5FE /* RGBColorFade */,
+				1D9B562D92554BD0B88B8DE7 /* faderTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A30CD3BF6D2E48CE8990221C /* CMake Rules */ = {
+		BFA25B481B0F4CBFBA983B28 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		A62028E08D644686B9915F77 /* faderTests */ = {
+		F724579F8D1F433F8DEF96F6 = {
 			isa = PBXGroup;
 			children = (
-				D603036736C54B7E8D40358C /* Source Files */,
-				DBDA672112004A4CA5CEA3F7 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/CMakeLists.txt */,
+				7C136203FB02476592BF5425 /* Sources */,
+				4433E1069CCE4FC4ADE206F0 /* Resources */,
+				9CF0B1D4451D43FCB343E11A /* Products */,
 			);
-			name = faderTests;
-			sourceTree = "<group>";
-		};
-		BE9C899AC8F94DC6A05DB4D9 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		D603036736C54B7E8D40358C /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				38BE3420C93846059B6B3CBC /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/TestColorFader.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		E683A3AD16AE4057B6D9F6D9 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				1A648E0AC86F49FB8B40D8D4 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/RGBColorFader.cpp */,
-			);
-			name = "Source Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,35 +239,35 @@
 /* Begin PBXNativeTarget section */
 		B02341524F9F475C87C2DF96 /* RGBColorFade */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8131F370FC954F7AA0B23489 /* Build configuration list for PBXNativeTarget "RGBColorFade" */;
+			buildConfigurationList = 6546389646694A82B8E71936 /* Build configuration list for PBXNativeTarget "RGBColorFade" */;
 			buildPhases = (
-				C27E23ECFC034F52B872C8E2 /* Sources */,
+				40E0BD47294145C6A41C4569 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7010C6DD454E4330817BFF73 /* PBXTargetDependency */,
+				99E8235E78B24544AD0A2542 /* PBXTargetDependency */,
 			);
 			name = RGBColorFade;
 			productName = RGBColorFade;
-			productReference = 7E68B5AC6E3244C9BC5C2AD0 /* RGBColorFade */;
+			productReference = EA22C9FDA84040139262B5FE /* RGBColorFade */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B04DD1A4429F49E7845CEA19 /* faderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F61170769DA4C14B51DD189 /* Build configuration list for PBXNativeTarget "faderTests" */;
+			buildConfigurationList = F91E596226024A8D885D9A17 /* Build configuration list for PBXNativeTarget "faderTests" */;
 			buildPhases = (
-				86C637502104469FBBF44801 /* Sources */,
+				27C679D7E8124FFB8C80091A /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CECC2A4B6D4F4658920560C9 /* PBXTargetDependency */,
-				AC3E4CBBE954482F9765879F /* PBXTargetDependency */,
+				2063E6BCAB3A4BBF87AA46F9 /* PBXTargetDependency */,
+				1386F3C3A774439EA3C29C6B /* PBXTargetDependency */,
 			);
 			name = faderTests;
 			productName = faderTests;
-			productReference = 5B4C1074647A4E319ACF2409 /* faderTests */;
+			productReference = 1D9B562D92554BD0B88B8DE7 /* faderTests */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -279,18 +279,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 0820;
 			};
-			buildConfigurationList = D916CCF42DE54F9EA6139B11 /* Build configuration list for PBXProject "RGBColorFade" */;
+			buildConfigurationList = 4E76E3AE88104917B82228C0 /* Build configuration list for PBXProject "RGBColorFade" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				0F108F20023646BBB53EF6F0 /* Debug */,
-				7D959960B26A465BAEC7A431 /* Release */,
-				52C37F85CA2D4DE4A4C5521E /* MinSizeRel */,
-				264F602751ED4A88B09E3CBF /* RelWithDebInfo */,
+				17133B5288654147880EB7E2 /* Debug */,
+				BEC16502D3B94E128394FA51 /* Release */,
+				9D91FECFC3F7423786ED7D29 /* MinSizeRel */,
+				FA9D83CAF69F47C18F6489A5 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 8CEDCD49DBCE41F397C37051;
+			mainGroup = F724579F8D1F433F8DEF96F6;
 			projectDirPath = RGBColorFade;
 			projectRoot = "";
 			targets = (
@@ -303,18 +303,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		38B4C89377C64763A31408F8 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /common/workspaces/arduino/myLibraries -f /common/workspaces/arduino/myLibraries/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		4C8B945A068A4DAAA1D01430 = {
+		367E8A7A8E4F428590365D94 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,7 +318,18 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		B30A8FE0A8B942B8805578F8 /* CMake Rules */ = {
+		82D8E31E72724D2AAEC4039E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /common/workspaces/arduino/myLibraries -f /common/workspaces/arduino/myLibraries/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		97C979167FB44D9AB8825C13 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,7 +340,7 @@ exit 0";
 			shellScript = "make -C /common/workspaces/arduino/myLibraries -f /common/workspaces/arduino/myLibraries/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		FB474B5920AB47019E796C12 = {
+		DBB09F564ABA4EE8B2FB402E = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,59 +358,79 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		86C637502104469FBBF44801 /* Sources */ = {
+		27C679D7E8124FFB8C80091A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0FC9E0A8AD492A95FDDB9C /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/TestColorFader.cpp */,
+				859F2C6D9F7E40838C376173 /* /common/workspaces/arduino/myLibraries/RGBColorFade/test/TestColorFader.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C27E23ECFC034F52B872C8E2 /* Sources */ = {
+		40E0BD47294145C6A41C4569 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ED4AD53ED3F4AE5AB23DA19 /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/RGBColorFader.cpp */,
+				8FB3F37BEB6E4BD4BC85482B /* /common/workspaces/arduino/myLibraries/RGBColorFade/src/RGBColorFader.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		05AA2A69FFC44DC99712496A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B02341524F9F475C87C2DF96 /* RGBColorFade */;
-			targetProxy = E5C95739C89D45339782F63A /* PBXContainerItemProxy */;
-		};
-		1E57074492074F88A8815727 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD048C6523AE4C01B381880B /* ZERO_CHECK */;
-			targetProxy = 2AC242F5361A493B8DD134C6 /* PBXContainerItemProxy */;
-		};
-		7010C6DD454E4330817BFF73 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD048C6523AE4C01B381880B /* ZERO_CHECK */;
-			targetProxy = 41EC8FA6E6E24C869435C004 /* PBXContainerItemProxy */;
-		};
-		AC3E4CBBE954482F9765879F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B02341524F9F475C87C2DF96 /* RGBColorFade */;
-			targetProxy = 2A4B7D62B2D3448A88D096FB /* PBXContainerItemProxy */;
-		};
-		B8749BAA1BC04BDBB9120241 /* PBXTargetDependency */ = {
+		07E8E58ECAF0419F91F7C8C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B04DD1A4429F49E7845CEA19 /* faderTests */;
-			targetProxy = 96EF32B2940B40B29022C4CE /* PBXContainerItemProxy */;
+			targetProxy = 08C89EE35C5F4594B5DE9597 /* PBXContainerItemProxy */;
 		};
-		CECC2A4B6D4F4658920560C9 /* PBXTargetDependency */ = {
+		1386F3C3A774439EA3C29C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B02341524F9F475C87C2DF96 /* RGBColorFade */;
+			targetProxy = BAE0C9DD81FC4E8AA02EDCBE /* PBXContainerItemProxy */;
+		};
+		2063E6BCAB3A4BBF87AA46F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CD048C6523AE4C01B381880B /* ZERO_CHECK */;
-			targetProxy = 947DECDF087D47439DFE6331 /* PBXContainerItemProxy */;
+			targetProxy = 89D0D5ACABBA4FD5BC94FBE0 /* PBXContainerItemProxy */;
+		};
+		3D3711225F18469F8E5C270A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD048C6523AE4C01B381880B /* ZERO_CHECK */;
+			targetProxy = 07729C99E19B4C96AC52B4DB /* PBXContainerItemProxy */;
+		};
+		99E8235E78B24544AD0A2542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD048C6523AE4C01B381880B /* ZERO_CHECK */;
+			targetProxy = E7FAE23F9E8C431083C2FDF4 /* PBXContainerItemProxy */;
+		};
+		F4DE0F4C8A1A47B69B9518E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B02341524F9F475C87C2DF96 /* RGBColorFade */;
+			targetProxy = 6473A0EA2362459C8F8287B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E63C696A05545CB8A2BF44D /* MinSizeRel */ = {
+		078161CB2EF14A168BC4EDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /common/workspaces/arduino/myLibraries;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0E9396143DBA492AB7920302 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -434,60 +454,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		2C8E4F8A6E61479CB9948775 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RGBColorFade;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /common/workspaces/arduino/myLibraries/src;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		2D75B47D76AF40C98277A615 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /common/workspaces/arduino/myLibraries;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		31823F59EA4B4D25B05D93E9 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.12.sdk;
-				SYMROOT = /common/workspaces/arduino/myLibraries/build;
-			};
-			name = RelWithDebInfo;
-		};
-		361B1257689940B6999DC759 /* MinSizeRel */ = {
+		107B114EA8B04CD19AA5EB72 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -498,6 +465,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/common/workspaces/arduino/myLibraries/RGBColorFade/src);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
@@ -511,55 +479,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		3EE1EC179E30431E87A5B494 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RGBColorFade;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /common/workspaces/arduino/myLibraries/src;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		4189E75625D640C7A5B585DC /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RGBColorFade;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /common/workspaces/arduino/myLibraries/src;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		4736BD55D0D24384AD07D524 /* MinSizeRel */ = {
+		53DA6C7536894EA299679433 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -571,15 +491,35 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /common/workspaces/arduino/myLibraries;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		55DC2B524FAC4EF89C057E76 /* MinSizeRel */ = {
+		57DD32080EA54EB28C703236 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /common/workspaces/arduino/myLibraries;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5A21DB22182642D7B69F76BE /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
@@ -588,27 +528,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		595489CE15574FA2B4D09239 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /common/workspaces/arduino/myLibraries;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		6ADC333933F84D68A676C8AD /* RelWithDebInfo */ = {
+		6EFE64AD6D374B07AEAC4BFD /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -619,6 +539,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/common/workspaces/arduino/myLibraries/RGBColorFade/src);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
@@ -632,71 +553,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		72F5D917AE1D494FB074AB65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /common/workspaces/arduino/myLibraries;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		73F2998F59774B8DB18F7720 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /common/workspaces/arduino/myLibraries/src/Release/libRGBColorFade.a";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = faderTests;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /common/workspaces/arduino/myLibraries/test;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		A114CF3E67C74A75B76BC01F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /common/workspaces/arduino/myLibraries;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		A81A0714EE9A4DF4AF52AEC7 /* Release */ = {
+		9F8DF875003D4E7BA82A37B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
@@ -705,7 +562,49 @@ exit 0";
 			};
 			name = Release;
 		};
-		B4A8887ED86346F792FD4909 /* Debug */ = {
+		AEE143547C5D43C4A110EFDA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /common/workspaces/arduino/myLibraries/build;
+			};
+			name = RelWithDebInfo;
+		};
+		B0E3A3FDD0234B84A99939C2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RGBColorFade;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /common/workspaces/arduino/myLibraries/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C402B200195144EFA38BCF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /common/workspaces/arduino/myLibraries/build;
+			};
+			name = Debug;
+		};
+		C4204DE9CBEB40C486CC683C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -725,27 +624,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		B6C5C5A495CE4CFEB450FAEF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /common/workspaces/arduino/myLibraries;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		B95FE3EFB0E84C63BFEC3373 /* MinSizeRel */ = {
+		C7CCFDB83616419EBE80B97D /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -765,16 +644,72 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		E529E798D3FC431888B8B554 /* Debug */ = {
+		CC1154BF554A4D559A21F9EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.12.sdk;
-				SYMROOT = /common/workspaces/arduino/myLibraries/build;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/common/workspaces/arduino/myLibraries/RGBColorFade/src);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /common/workspaces/arduino/myLibraries/src/Release/libRGBColorFade.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = faderTests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /common/workspaces/arduino/myLibraries/test;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = Debug;
+			name = Release;
 		};
-		FEE682547B054DE19C06FBA3 /* Debug */ = {
+		D0ED650606014F6A9C3770FE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /common/workspaces/arduino/myLibraries;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D778893E27234F8B83D0639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /common/workspaces/arduino/myLibraries;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E6601E332EC74E899C6FFC7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -785,6 +720,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/common/workspaces/arduino/myLibraries/RGBColorFade/src);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "    ";
@@ -798,60 +734,128 @@ exit 0";
 			};
 			name = Debug;
 		};
+		E8F74183943045579D94B330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RGBColorFade;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /common/workspaces/arduino/myLibraries/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F05C1CB7471A41EE8557E043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RGBColorFade;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /common/workspaces/arduino/myLibraries/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F3ED4A0D4334497E99705690 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /common/workspaces/arduino/myLibraries;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		191E72A6D77749618538400C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		29BA4B52D3994D77BA3DC066 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4A8887ED86346F792FD4909 /* Debug */,
-				A114CF3E67C74A75B76BC01F /* Release */,
-				4736BD55D0D24384AD07D524 /* MinSizeRel */,
-				595489CE15574FA2B4D09239 /* RelWithDebInfo */,
+				53DA6C7536894EA299679433 /* Debug */,
+				D778893E27234F8B83D0639C /* Release */,
+				C7CCFDB83616419EBE80B97D /* MinSizeRel */,
+				57DD32080EA54EB28C703236 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7F61170769DA4C14B51DD189 /* Build configuration list for PBXNativeTarget "faderTests" */ = {
+		4E76E3AE88104917B82228C0 /* Build configuration list for PBXProject "RGBColorFade" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEE682547B054DE19C06FBA3 /* Debug */,
-				73F2998F59774B8DB18F7720 /* Release */,
-				361B1257689940B6999DC759 /* MinSizeRel */,
-				6ADC333933F84D68A676C8AD /* RelWithDebInfo */,
+				C402B200195144EFA38BCF62 /* Debug */,
+				9F8DF875003D4E7BA82A37B6 /* Release */,
+				5A21DB22182642D7B69F76BE /* MinSizeRel */,
+				AEE143547C5D43C4A110EFDA /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8131F370FC954F7AA0B23489 /* Build configuration list for PBXNativeTarget "RGBColorFade" */ = {
+		6546389646694A82B8E71936 /* Build configuration list for PBXNativeTarget "RGBColorFade" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3EE1EC179E30431E87A5B494 /* Debug */,
-				2C8E4F8A6E61479CB9948775 /* Release */,
-				0E63C696A05545CB8A2BF44D /* MinSizeRel */,
-				4189E75625D640C7A5B585DC /* RelWithDebInfo */,
+				F05C1CB7471A41EE8557E043 /* Debug */,
+				E8F74183943045579D94B330 /* Release */,
+				0E9396143DBA492AB7920302 /* MinSizeRel */,
+				B0E3A3FDD0234B84A99939C2 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9F00E304065D4A4181CB9555 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		D71550FB26D3448CAD8DAE26 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72F5D917AE1D494FB074AB65 /* Debug */,
-				B6C5C5A495CE4CFEB450FAEF /* Release */,
-				B95FE3EFB0E84C63BFEC3373 /* MinSizeRel */,
-				2D75B47D76AF40C98277A615 /* RelWithDebInfo */,
+				C4204DE9CBEB40C486CC683C /* Debug */,
+				078161CB2EF14A168BC4EDED /* Release */,
+				F3ED4A0D4334497E99705690 /* MinSizeRel */,
+				D0ED650606014F6A9C3770FE /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D916CCF42DE54F9EA6139B11 /* Build configuration list for PBXProject "RGBColorFade" */ = {
+		F91E596226024A8D885D9A17 /* Build configuration list for PBXNativeTarget "faderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E529E798D3FC431888B8B554 /* Debug */,
-				A81A0714EE9A4DF4AF52AEC7 /* Release */,
-				55DC2B524FAC4EF89C057E76 /* MinSizeRel */,
-				31823F59EA4B4D25B05D93E9 /* RelWithDebInfo */,
+				E6601E332EC74E899C6FFC7B /* Debug */,
+				CC1154BF554A4D559A21F9EA /* Release */,
+				107B114EA8B04CD19AA5EB72 /* MinSizeRel */,
+				6EFE64AD6D374B07AEAC4BFD /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
