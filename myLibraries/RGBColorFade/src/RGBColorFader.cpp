@@ -2,45 +2,10 @@
 #include <iostream>
 using namespace std;
 
-NeoPixelColor::NeoPixelColor(int red, int green, int blue)
+FadingColor::FadingColor(RgbPixelColor &color, RgbPixelColor &endColor, int cyclesToProcess)
 {
-  this->red = red;
-  this->green = green;
-  this->blue = blue;
-}
-
-NeoPixelColor::NeoPixelColor(const NeoPixelColor &src)
-{
-  red = src.red;
-  green = src.green;
-  blue = src.blue;
-}
-
-int NeoPixelColor::getRed() { return red; }
-int NeoPixelColor::getGreen() { return green; }
-int NeoPixelColor::getBlue() { return blue; }
-
-void NeoPixelColor::stepFadeTo(NeoPixelColor endColor)
-{
-
-  if (red > endColor.getRed())
-    --red;
-  if (green > endColor.getGreen())
-    --green;
-  if (blue > endColor.getBlue())
-    --blue;
-  if (red < endColor.getRed())
-    ++red;
-  if (green < endColor.getGreen())
-    ++green;
-  if (blue < endColor.getBlue())
-    ++blue;
-}
-
-FadingColor::FadingColor(NeoPixelColor &color, NeoPixelColor &endColor, int cyclesToProcess)
-{
-  this->color = new NeoPixelColor(color);
-  this->endColor = new NeoPixelColor(endColor);
+  this->color = new RgbPixelColor(color);
+  this->endColor = new RgbPixelColor(endColor);
   this->remainingCyclesToProcess = cyclesToProcess;
 }
 
@@ -59,7 +24,7 @@ int FadingColor::isFinished() {
   return this->remainingCyclesToProcess <= 0;
 }
 
-void showColor(NeoPixelColor &color)
+void showColor(RgbPixelColor &color)
 {
   cout << color.getRed() << ",";
   cout << color.getGreen() << ",";
@@ -70,24 +35,24 @@ void showColor(NeoPixelColor &color)
 int main()
 {
 
-  NeoPixelColor black = NeoPixelColor(0, 0, 0);
-  NeoPixelColor red = NeoPixelColor(255, 0, 0);
-  NeoPixelColor orange = NeoPixelColor(255, 48, 0);
-  NeoPixelColor yellow = NeoPixelColor(255, 128, 0);
-  NeoPixelColor lime = NeoPixelColor(255, 255, 0);
-  NeoPixelColor green = NeoPixelColor(0, 255, 0);
-  NeoPixelColor cyan = NeoPixelColor(0, 255, 255);
-  NeoPixelColor blue = NeoPixelColor(0, 0, 255);
-  NeoPixelColor purple = NeoPixelColor(255, 0, 255);
-  NeoPixelColor white = NeoPixelColor(255, 255, 255);
+  RgbPixelColor black = RgbPixelColor(0, 0, 0);
+  RgbPixelColor red = RgbPixelColor(255, 0, 0);
+  RgbPixelColor orange = RgbPixelColor(255, 48, 0);
+  RgbPixelColor yellow = RgbPixelColor(255, 128, 0);
+  RgbPixelColor lime = RgbPixelColor(255, 255, 0);
+  RgbPixelColor green = RgbPixelColor(0, 255, 0);
+  RgbPixelColor cyan = RgbPixelColor(0, 255, 255);
+  RgbPixelColor blue = RgbPixelColor(0, 0, 255);
+  RgbPixelColor purple = RgbPixelColor(255, 0, 255);
+  RgbPixelColor white = RgbPixelColor(255, 255, 255);
 
-  NeoPixelColor rainbowColors[9] = {
+  RgbPixelColor rainbowColors[9] = {
       red, orange, yellow, lime,
       green, cyan, blue, purple, white};
 
   cout << endl
-       << "NeoPixelColor" << endl;
-  NeoPixelColor currentColor = NeoPixelColor(black);
+       << "RgbPixelColor" << endl;
+  RgbPixelColor currentColor = RgbPixelColor(black);
   int currentColorIndex = 0;
   int numColors = sizeof(rainbowColors) / sizeof(rainbowColors[0]);
 
@@ -111,8 +76,8 @@ int intensity = 0;
 int shortDelayInMs = 30;
 int longDelayInMs = 4000;
 
-NeoPixelColor currentColor = NeoPixelColor(black);
-NeoPixelColor endColor = NeoPixelColor(black);
+RgbPixelColor currentColor = RgbPixelColor(black);
+RgbPixelColor endColor = RgbPixelColor(black);
 
 int nextColor(int previousColor)
 {
@@ -126,8 +91,8 @@ int nextColor(int previousColor)
 
 void initStartAndEndColors()
 {
-  currentColor = NeoPixelColor(rainbowColors[currentColorIndex]);
-  endColor = NeoPixelColor(rainbowColors[nextColor(currentColorIndex)]);
+  currentColor = RgbPixelColor(rainbowColors[currentColorIndex]);
+  endColor = RgbPixelColor(rainbowColors[nextColor(currentColorIndex)]);
 }
 
 void setup()

@@ -157,6 +157,9 @@ RGBColorFade_LIB_DEPENDS:STATIC=
 //Value Computed by CMake
 RGBColorFade_SOURCE_DIR:STATIC=/common/workspaces/arduino/myLibraries/RGBColorFade
 
+//Dependencies for target
+RgbPixelColor_LIB_DEPENDS:STATIC=
+
 
 ########################
 # INTERNAL cache entries
@@ -265,6 +268,8 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 PROJECT_RGBColorFade_GUID_CMAKE:INTERNAL=7CDF0109D5494EA09B8B27B5
 //Stored Xcode object GUID
 RGBColorFade_GUID_CMAKE:INTERNAL=B02341524F9F475C87C2DF96
+//Stored Xcode object GUID
+RgbPixelColor_GUID_CMAKE:INTERNAL=C2AD0AEA8B5840D48193C547
 //Stored Xcode object GUID
 ZERO_CHECK_GUID_CMAKE:INTERNAL=CD048C6523AE4C01B381880B
 //Stored Xcode object GUID

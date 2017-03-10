@@ -3,7 +3,7 @@
 
 int main()
 {
-  std::cout << "Hello World!";
-  NeoPixelColor black = NeoPixelColor(0, 0, 0);
+  std::cout << "Hello Color! ";
+  RgbPixelColor black = RgbPixelColor(0, 0, 0);
   std::cout << black.getRed();
 }
