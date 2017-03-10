@@ -1,0 +1,4 @@
+/common/workspaces/arduino/myLibraries/CMakeFiles/ALL_BUILD.dir
+/common/workspaces/arduino/myLibraries/CMakeFiles/ZERO_CHECK.dir
+/common/workspaces/arduino/myLibraries/src/CMakeFiles/RGBColorFade.dir
+/common/workspaces/arduino/myLibraries/test/CMakeFiles/faderTests.dir
