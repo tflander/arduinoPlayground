@@ -1,4 +1,4 @@
-cd ..
-cmake -G "Xcode" RGBColorFade
+cd ../../build/RGBColorFade
+cmake -G "Xcode" ../../myLibraries/RGBColorFade
 xcodebuild
-
+./test/Debug/faderTests

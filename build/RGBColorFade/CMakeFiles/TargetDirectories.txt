@@ -1,0 +1,5 @@
+/common/workspaces/arduino/build/RGBColorFade/CMakeFiles/ALL_BUILD.dir
+/common/workspaces/arduino/build/RGBColorFade/CMakeFiles/ZERO_CHECK.dir
+/common/workspaces/arduino/build/RGBColorFade/src/CMakeFiles/RgbPixelColor.dir
+/common/workspaces/arduino/build/RGBColorFade/src/CMakeFiles/RGBColorFade.dir
+/common/workspaces/arduino/build/RGBColorFade/test/CMakeFiles/faderTests.dir
