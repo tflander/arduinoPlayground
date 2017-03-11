@@ -4,9 +4,7 @@ empty:=
 space:= $(empty) $(empty)
 spaceplus:= $(empty)\ $(empty)
 
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.7/Modules/CMakeConfigurableFile.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.7/Modules/CMakeParseArguments.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.7/Modules/CheckIncludeFile.c.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.7/Modules/CheckIncludeFile.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.7/Modules/CheckLibraryExists.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.7/Modules/CheckSymbolExists.cmake))

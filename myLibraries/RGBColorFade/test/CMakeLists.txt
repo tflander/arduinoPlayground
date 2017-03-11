@@ -8,3 +8,4 @@ add_executable (faderTests TestColorFader.cpp)
 target_link_libraries (faderTests LINK_PUBLIC RGBColorFade RgbPixelColor)
 
 include_directories("${CMAKE_SOURCE_DIR}/include")
+

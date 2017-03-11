@@ -1,5 +1,6 @@
 /common/workspaces/arduino/build/RGBColorFade/CMakeFiles/install.dir
 /common/workspaces/arduino/build/RGBColorFade/CMakeFiles/RUN_TESTS.dir
+/common/workspaces/arduino/build/RGBColorFade/CMakeFiles/helloTest.dir
 /common/workspaces/arduino/build/RGBColorFade/CMakeFiles/ALL_BUILD.dir
 /common/workspaces/arduino/build/RGBColorFade/CMakeFiles/ZERO_CHECK.dir
 /common/workspaces/arduino/build/RGBColorFade/src/CMakeFiles/RUN_TESTS.dir
