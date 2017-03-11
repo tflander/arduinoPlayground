@@ -7,4 +7,5 @@
 add_test(RgbPixelColorTest "RgbPixelColorTest")
 subdirs("src")
 subdirs("test")
+subdirs("demo")
 subdirs("lib/googletest")

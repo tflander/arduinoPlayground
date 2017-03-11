@@ -7,9 +7,11 @@
 /common/workspaces/arduino/build/RGBColorFade/src/CMakeFiles/RgbPixelColor.dir
 /common/workspaces/arduino/build/RGBColorFade/src/CMakeFiles/install.dir
 /common/workspaces/arduino/build/RGBColorFade/src/CMakeFiles/RGBColorFade.dir
-/common/workspaces/arduino/build/RGBColorFade/test/CMakeFiles/RUN_TESTS.dir
 /common/workspaces/arduino/build/RGBColorFade/test/CMakeFiles/install.dir
-/common/workspaces/arduino/build/RGBColorFade/test/CMakeFiles/faderTests.dir
+/common/workspaces/arduino/build/RGBColorFade/test/CMakeFiles/RUN_TESTS.dir
+/common/workspaces/arduino/build/RGBColorFade/demo/CMakeFiles/install.dir
+/common/workspaces/arduino/build/RGBColorFade/demo/CMakeFiles/RUN_TESTS.dir
+/common/workspaces/arduino/build/RGBColorFade/demo/CMakeFiles/faderDemo.dir
 /common/workspaces/arduino/build/RGBColorFade/lib/googletest/CMakeFiles/install.dir
 /common/workspaces/arduino/build/RGBColorFade/lib/googletest/CMakeFiles/RUN_TESTS.dir
 /common/workspaces/arduino/build/RGBColorFade/lib/googletest/CMakeFiles/gtest_main.dir

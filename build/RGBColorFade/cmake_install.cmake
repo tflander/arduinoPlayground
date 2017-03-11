@@ -31,6 +31,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/common/workspaces/arduino/build/RGBColorFade/src/cmake_install.cmake")
   include("/common/workspaces/arduino/build/RGBColorFade/test/cmake_install.cmake")
+  include("/common/workspaces/arduino/build/RGBColorFade/demo/cmake_install.cmake")
   include("/common/workspaces/arduino/build/RGBColorFade/lib/googletest/cmake_install.cmake")
 
 endif()

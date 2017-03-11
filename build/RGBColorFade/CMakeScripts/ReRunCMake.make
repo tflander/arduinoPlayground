@@ -35,6 +35,7 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /common/workspaces/arduino/b
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /common/workspaces/arduino/build/RGBColorFade/CMakeFiles/3.7.2/CMakeCXXCompiler.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /common/workspaces/arduino/build/RGBColorFade/CMakeFiles/3.7.2/CMakeSystem.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /common/workspaces/arduino/myLibraries/RGBColorFade/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /common/workspaces/arduino/myLibraries/RGBColorFade/demo/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /common/workspaces/arduino/myLibraries/RGBColorFade/lib/googletest/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /common/workspaces/arduino/myLibraries/RGBColorFade/lib/googletest/cmake/internal_utils.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /common/workspaces/arduino/myLibraries/RGBColorFade/src/CMakeLists.txt))

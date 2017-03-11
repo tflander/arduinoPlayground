@@ -8,6 +8,7 @@ project(${PROJECT_NAME})
 
 add_subdirectory (src)
 add_subdirectory (test)
+add_subdirectory (demo)
 add_subdirectory(lib/googletest)
 
 enable_testing()
