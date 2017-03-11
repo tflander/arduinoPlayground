@@ -1,5 +1,5 @@
 cd ../../build/RGBColorFade
 cmake -G "Xcode" ../../myLibraries/RGBColorFade
 xcodebuild
-./Debug/helloTest
+./Debug/RgbPixelColorTest
 ./test/Debug/faderTests
