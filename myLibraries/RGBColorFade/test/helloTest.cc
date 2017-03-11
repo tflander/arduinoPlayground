@@ -7,7 +7,7 @@ void independentMethod(int &i) {
 }
 
 // IndependentMethod is a test case - here, we have 2 tests for this 1 test case
-TEST(IndependentMethod, ResetsToZero) {
+TEST(IndependentMethod, xResetsToZero) {
 	int i = 3;
 	independentMethod(i);
 	EXPECT_EQ(0, i);
